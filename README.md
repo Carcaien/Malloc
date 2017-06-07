@@ -12,7 +12,7 @@ Comment compiler et tester cette librairie ?
 1. Taper dans une invite de commande à la racine du répertoire la
 commande suivante :
 
-    $> make
+    $> make  
     $> export LD_PRELOAD=`pwd`/libmy_malloc.so
 
 2. Puis lorsque vous avez finis votre série de test :
