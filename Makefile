@@ -1,4 +1,4 @@
-SRC 		= 		fonction.c \
+SRC 		= 		fonctions.c \
 					free.c \
 					malloc.c
 

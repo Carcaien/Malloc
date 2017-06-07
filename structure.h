@@ -22,8 +22,8 @@ typedef struct				s_blockMalloc {
 
 typedef struct	          	s_blockFree {
   t_blockMalloc          	*free;    	//Référencement à la structure s_blockMalloc
-  struct s_blockFree     	*prev;    	//pointeur sur les données suivantes
-  struct s_blockFree        *nxt;    	//pointeur sur les données précédente
+  struct s_blockFree     	*prev;    	//pointeur sur les données précédente
+  struct s_blockFree        *nxt;    	//pointeur sur les données suivantes
 }		         			t_blockFree;
 
 extern pthread_mutex_t   	mutex;
